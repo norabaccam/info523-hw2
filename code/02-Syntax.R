@@ -1,3 +1,6 @@
+# Editing this file for the homework! - Nora
+
+
 ## 02-Syntax.R
 # Code from 02-subsetting
 # library(ggplot2)
@@ -18,6 +21,7 @@ df <- data.frame(
 df[2,3]
 df[c(2,4),c(2,3)]
 df[c(2,4),3]
+df[1, 2] # added
 
 1:4 
 df[1:4, 1:2]
@@ -145,15 +149,15 @@ c(3,4,5,6) %in% c(2, 3, 4)
 
 x > 2 & x < 9
 
-TRUE & TRUE
-TRUE & FALSE
-FALSE & TRUE
-FALSE & FALSE
+TRUE & TRUE #TRUE
+TRUE & FALSE #FALSE
+FALSE & TRUE #FALSE
+FALSE & FALSE #FALSE
 
-TRUE | TRUE
-TRUE | FALSE
-FALSE | TRUE
-FALSE | FALSE
+TRUE | TRUE #TRUE
+TRUE | FALSE #TRUE
+FALSE | TRUE #TRUE
+FALSE | FALSE #FALSE
 
 xor(TRUE, TRUE)
 xor( TRUE, FALSE)
